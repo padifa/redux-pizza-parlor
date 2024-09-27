@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf5e6; 
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(238, 220, 170);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-title {
+  font-size: 2.5rem;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px 20px;
+  background-color: #e04d2a;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ff7f50;
+}
+
+nav a.active {
+  background-color: #ff4500; 
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #fdf5e6;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #e04d2a;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ff6347;
+}
